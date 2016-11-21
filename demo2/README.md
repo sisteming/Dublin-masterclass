@@ -1,5 +1,6 @@
 # Dublin-masterclass (demo2)
 -----
+Files used for the demos during the Dublin Masterclass session: **The rise of containers: from development to production using Docker**
 
 This demo covers the deployment of our application and database but using docker compose.
 	

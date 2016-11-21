@@ -1,8 +1,10 @@
 # Dublin-masterclass (demo1)
 -----
-Files used for the demos during the Dublin Masterclass session: The rise of containers: from development to production using Docker.
+Files used for the demos during the Dublin Masterclass session: **The rise of containers: from development to production using Docker**
 
-Check also the application file (my_app/app.py) to see how the application is connecting to the MongoDB database:
+This demo covers how we build a container image and run to containers working together.
+
+Check the application file (my_app/app.py) to see how the application is connecting to the MongoDB database:
 
 	app.config['MONGO_HOST'] = '192.168.1.101'
 	app.config['MONGO_PORT'] = 27017
@@ -30,7 +32,7 @@ In a new terminal, confirm that both containers are running:
 
 Now with our containers running, go to the Flask app at:
 
-http://localhost:8080
+	http://localhost:8080
 
 Insert some users into the MongoDB database with the command below:
 
