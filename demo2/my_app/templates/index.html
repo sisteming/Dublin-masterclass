@@ -1,0 +1,14 @@
+<html>
+<head>
+ <title>Flask and MongoDB</title>
+</head>
+<body>
+ <h1>Users in our database</h1>
+ <form action="/users" method="GET">
+ 	{% for user in online_users %}
+    <div class=flash>{{ user.user }}</div>
+  {% endfor %}
+ </form>
+</body>
+
+</html>

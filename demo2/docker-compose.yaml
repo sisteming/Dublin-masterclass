@@ -1,0 +1,25 @@
+version: '2'
+
+services:
+
+  my_app:
+    build:
+          context: .
+          dockerfile: my_app.dockerfile
+    image: my_app
+    ports:
+      - 8080:80
+    hostname: my_app
+    container_name: my_app
+    labels:
+      - "service=flask"
+
+
+  mongodb:
+    image: mongodb
+    ports:
+      - 27017:27017
+    hostname: mongod
+    container_name: mongod
+    labels:
+      - "service=mongodb"
