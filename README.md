@@ -2,7 +2,6 @@
 -----
 The information on this repo shows the material used at the Dublin masterclass event organised by Unicom in Dublin on November 22nd: http://conferences.unicom.co.uk/dublin-masterclass/.
 
-Files used for the demos during the Dublin Masterclass session: The rise of containers: from development to production using Docker.
 
 # Presentation: **The rise of containers: from development to production using Docker**
 -----
