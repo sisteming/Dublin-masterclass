@@ -4,7 +4,7 @@ from flask_pymongo import PyMongo
 
 app = Flask(__name__)
 
-app.config['MONGO_HOST'] = '192.168.0.101'
+app.config['MONGO_HOST'] = '10.251.112.130'
 app.config['MONGO_PORT'] = 27017
 app.config['MONGO_DBNAME'] = 'flask_demo'
 mongo = PyMongo(app, config_prefix='MONGO')

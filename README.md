@@ -2,7 +2,15 @@
 -----
 Files used for the demos during the Dublin Masterclass session: The rise of containers: from development to production using Docker.
 
-MongoDB cluster on Docker Swarm 
+# Presentation: **The rise of containers: from development to production using Docker**
+-----
+
+The presentation used during this session is available at:
+
+http://sisteming.github.io/containers/#1
+
+
+# MongoDB cluster on Docker Swarm 
 -----
 The scripts and compose files used for the MongoDB case study during this session can be found here:
 
